@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+
+  pre_build:
+    commands:
+      - npm update -g npm
+      # - npm install -g yarn
+      - npm install
+
+  build:
+    commands:
+      - NODE_ENV=production npm run build
+
+  post_build:
+    commands:
+      # - rm package-lock.json
+      # - rm -rf node_modules
+
+artifacts:
+  files:
+    - '**/*'
