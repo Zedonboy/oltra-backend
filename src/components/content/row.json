@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_rows",
+  "info": {
+    "displayName": "Row",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "action_url": {
+      "type": "string"
+    }
+  }
+}
